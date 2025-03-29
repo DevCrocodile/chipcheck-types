@@ -1,0 +1,1 @@
+export { validateAccount } from './signupForm/schemas';

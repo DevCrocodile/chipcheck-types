@@ -1,0 +1,21 @@
+{
+  "name": "@chipcheck/types",
+  "version": "0.1.0",
+  "main": "build/index.js",
+  "types": "build/index.d.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "rm -rf build && tsc"
+  },
+  "keywords": [],
+  "author": "Carlos Avila",
+  "license": "ISC",
+  "description": "Types and validation functions for systems that use chipcheck",
+  "devDependencies": {
+    "@types/node": "22.13.14",
+    "typescript": "5.8.2"
+  },
+  "dependencies": {
+    "zod": "3.24.2"
+  }
+}
